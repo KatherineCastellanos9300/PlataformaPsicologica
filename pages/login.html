@@ -29,18 +29,25 @@
         Usuario
     </label>
 
-    <input type="text" placeholder="Ingrese su usuario">
+    <input 
+type="text" 
+id="usuario" 
+placeholder="Ingrese su usuario">
 
 
     <label>
         Contraseña
     </label>
 
-    <input type="password" placeholder="Ingrese su contraseña">
+   <input
+ type= "password"
+id="clave"
+placeholder="Ingrese su contraseña">
+
 
 
   <a href="inicio.html">
-    <button>
+    <button onclick="validarLogin()">
         Ingresar
     </button>
 </a>
@@ -49,7 +56,7 @@
 
     </div>
 
-
+<script src="../js/login.js"></script>
 </body>
 
 </html>
