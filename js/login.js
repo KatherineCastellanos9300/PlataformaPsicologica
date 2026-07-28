@@ -1,9 +1,10 @@
 function validarLogin(event){
 event.preventDefault();
 
-    let usuario = document.getElementById("usuario").value;
+    let usuario = document.getElementById("usuario").value.trim();
+    let clave = document.getElementById("clave").value.trim();
+    
 
-    let clave = document.getElementById("clave").value;
 
 
     if(usuario === "kath" && clave === "0000"){
