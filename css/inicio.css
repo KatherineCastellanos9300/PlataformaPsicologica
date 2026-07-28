@@ -123,3 +123,9 @@
     background:#752c1f;
 
 }
+
+.icono img{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+}
