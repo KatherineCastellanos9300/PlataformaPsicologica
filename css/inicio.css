@@ -1,0 +1,125 @@
+.pagina{
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+
+
+.pagina h1{
+
+    font-size:32px;
+
+    color:#1f5275;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.pagina h2{
+
+    color:#555;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.contenedor-evaluaciones{
+
+    display:grid;
+
+    grid-template-columns:repeat(3, 280px);
+
+    justify-content:center;
+
+    gap:30px;
+
+}
+
+
+
+.tarjeta{
+
+    background:white;
+
+    border:2px solid #d9e6f2;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+
+}
+
+
+
+.tarjeta:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.icono{
+
+    font-size:45px;
+
+}
+
+
+
+.tarjeta h3{
+
+    color:#2c6e9b;
+
+    font-size:24px;
+
+}
+
+
+
+.tarjeta p{
+
+    color:#555;
+
+    min-height:60px;
+
+}
+
+
+
+.tarjeta button{
+
+    background:#2c6e9b;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:25px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
+
+
+
+.tarjeta button:hover{
+
+    background:#1f5275;
+
+}
