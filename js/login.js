@@ -6,7 +6,7 @@ event.preventDefault();
     let clave = document.getElementById("clave").value;
 
 
-    if(usuario === " " && clave === "0000"){
+    if(usuario === "kath" && clave === "0000"){
 
         window.location.href = "inicio.html";
 
