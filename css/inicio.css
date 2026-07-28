@@ -12,7 +12,7 @@
 
     font-size:32px;
 
-    color:#1f5275;
+    color:#e92222;
 
     margin-bottom:15px;
 
@@ -80,7 +80,7 @@
 
 .tarjeta h3{
 
-    color:#2c6e9b;
+    color:#fa0909;
 
     font-size:24px;
 
@@ -100,7 +100,7 @@
 
 .tarjeta button{
 
-    background:#2c6e9b;
+    background:#f70404;
 
     color:white;
 
@@ -120,6 +120,6 @@
 
 .tarjeta button:hover{
 
-    background:#1f5275;
+    background:#752c1f;
 
 }
