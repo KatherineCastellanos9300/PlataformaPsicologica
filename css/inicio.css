@@ -72,13 +72,26 @@
 
 .icono img{
 
-    width:80px;
+    width:55px;
 
-    height:80px;
+    height:55px;
 
     object-fit:contain;
 
 }
+.icono{
+
+    height:70px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
 
 
 
