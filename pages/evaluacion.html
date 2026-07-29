@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Evaluación Dislexia</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+
+<body>
+
+
+<div class="contenedor">
+
+
+<!-- ENCABEZADO -->
+
+<header class="encabezado">
+
+<h1>
+DETECCIÓN DE NECESIDADES EDUCATIVAS ESPECIALES A ESTUDIANTES
+</h1>
+
+<h2>
+Trastornos de Aprendizaje - Dislexia
+</h2>
+
+</header>
+
+
+
+<!-- DATOS DEL ESTUDIANTE -->
+
+<section class="datos">
+
+
+<h3>
+Datos del estudiante
+</h3>
+
+
+<div class="formulario">
+
+
+<label>
+Nombre:
+</label>
+
+<input type="text" id="nombre">
+
+
+<label>
+Fecha:
+</label>
+
+<input type="date" id="fecha">
+
+
+
+<label>
+Grado:
+</label>
+
+<input type="text" id="grado">
+
+
+
+<label>
+Edad:
+</label>
+
+<input type="number" id="edad">
+
+
+
+<label>
+Centro Educativo:
+</label>
+
+<input type="text" id="centro">
+
+
+
+<label>
+Evaluador:
+</label>
+
+<input type="text" id="evaluador">
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- INSTRUCCIONES -->
+
+
+<section class="instrucciones">
+
+
+<h3>
+INSTRUCCIONES
+</h3>
+
+
+<p>
+A continuación, se presenta un cuadro con distintos indicadores
+característicos asociados al trastorno de aprendizaje.
+Cada indicador está acompañado por un espacio para calificar
+el grado de dificultad o frecuencia con la que se presenta.
+</p>
+
+
+<p>
+La evaluación debe realizarse de manera objetiva, basándose en
+la observación directa, historial del caso o información proporcionada
+por personas relacionadas con el estudiante.
+</p>
+
+
+
+<p>
+Seleccione una opción para cada indicador:
+</p>
+
+
+<ul>
+
+<li>
+<strong>SÍ:</strong> El indicador está presente.
+</li>
+
+
+<li>
+<strong>NO:</strong> El indicador no está presente.
+</li>
+
+
+<li>
+<strong>SE:</strong> Sin evidencia suficiente o requiere mayor observación.
+</li>
+
+
+</ul>
+
+
+</section>
+
+
+
+
+<!-- PREGUNTAS -->
+
+<section>
+
+<h3>
+Indicadores de evaluación
+</h3>
+
+
+<div id="preguntas">
+
+
+</div>
+
+
+</section>
+
+
+
+
+<button onclick="calcularResultado()">
+Finalizar evaluación
+</button>
+
+
+</div>
+
+
+
+<script src="js/dislexia.js"></script>
+
+
+</body>
+
+</html>
